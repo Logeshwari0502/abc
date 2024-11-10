@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Structural Health Monitoring</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f6f9;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        /* Home Section */
+        .section-home {
+            background-color: #2980b9;
+            color: white;
+            padding: 50px 20px;
+        }
+        .section-home h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .btn-main {
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .btn-main:hover {
+            background-color: #d35400;
+        }
+        /* Shop Section */
+        .section-shop {
+            background-color: #34495e;
+            color: white;
+        }
+        .shop-content p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        /* Product Grid */
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            justify-items: center;
+            padding: 20px;
+        }
+        .product-card {
+            background-color: #2c3e50;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+            width: 90%;
+            max-width: 300px;
+        }
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        .product-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product-card h3 {
+            font-size: 1.5rem;
+            margin-top: 15px;
+        }
+        .product-card p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+        .product-card span {
+            font-size: 1.2rem;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .btn-shop {
+            background-color: #2980b9;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 15px;
+            display: inline-block;
+        }
+        .btn-shop:hover {
+            background-color: #3498db;
+        }
+        /* Contact Section */
+        .section-contact {
+            background-color: #ecf0f1;
+            color: #2c3e50;
+        }
+        .contact-content {
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home" class="section section-home">
+        <h1>Welcome to Smart Structural Health Monitoring</h1>
+        <p>We specialize in <strong>piezo-embedded hybrid fiber-reinforced geopolymer concrete</strong> for real-time monitoring of infrastructure health.</p>
+        <a href="#about" class="btn-main">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>Transforming Infrastructure Monitoring</h2>
+        <p>We provide <strong>innovative solutions</strong> using advanced materials and embedded sensors to monitor structural health.</p>
+        <p><strong>Why Choose Us?</strong><br>Smart sensors, sustainable materials, early fault detection.</p>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="section section-shop">
+        <h2>Buy Monitoring Systems</h2>
+        <div class="shop-content">
+            <p>Browse our range of monitoring products and solutions for infrastructure projects.</p>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Smart Sensor" class="product-image">
+                    <h3>Smart Sensor</h3>
+                    <p>Real-time data collection and monitoring for infrastructure health.</p>
+                    <span>$99.99</span>
+                    <a href="#" class="btn-shop">Add to Cart</a>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Monitoring Kit" class="product-image">
+                    <h3>Monitoring Kit</h3>
+                    <p>Comprehensive kit for structural health monitoring, easy installation.</p>
+                    <span>$249.99</span>
+                    <a href="#" class="btn-shop">Add to Cart</a>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Installation Service" class="product-image">
+                    <h3>Installation Service</h3>
+                    <p>Professional installation of monitoring systems for your infrastructure.</p>
+                    <span>$199.99</span>
+                    <a href="#" class="btn-shop">Add to Cart</a>
+                </div>
+            </div>
+            <a href="#shop" class="btn-main">Browse More Products</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <p>Email: info@smartshm.com</p>
+            <p>Phone: +1-234-567-890</p>
+            <p>Address: 456 Innovation Street, Tech Park, City, State</p>
+        </div>
+    </section>
+</body>
+</html>
